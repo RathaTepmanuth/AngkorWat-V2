@@ -1292,7 +1292,7 @@ function CheckBossDimension()
 		end
 	end
 end;
-local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
+local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/AngkorWat hub/ui.lua"))()
 local L_34_ = L_33_:Window("AngkorWat hub function was here", Enum.KeyCode.LeftControl)
 print("|AngkorWat DEBUG| Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -5193,6 +5193,6 @@ task.spawn(function()
 		end)
 	end
 end)
-print("|COKKA DEBUG| Done loaded Cokka in: " .. os.clock() - L_1_)
+print("|AngkorWat DEBUG| Done loaded Cokka in: " .. os.clock() - L_1_)
 Notify("<Color=White>We are still updating more features...<Color=/>", 10)
 Notify("<Color=Blue>Hope you Enjoy it!<Color=/>", 8)
